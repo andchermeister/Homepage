@@ -311,5 +311,169 @@ header {
 }
 
 /* Mobile */
-/* @media (max-width: 425px) {
-} */
+@media (max-width: 320px) {
+  header {
+    left: 40%;
+    flex-direction: column;
+  }
+
+  #header-img {
+    max-width: 800px;
+    max-height: 1200px;
+  }
+
+  #header-img-section {
+    left: -20%;
+  }
+
+  #shadow {
+    max-width: 800px;
+    width: 250%;
+    height: 100px;
+    opacity: 0.4;
+    transform: translateY(-105%);
+  }
+
+  #name-surname {
+    margin-left: 55%;
+    margin-top: 15%;
+    font-size: 60px;
+    width: 600px;
+    height: 100px;
+  }
+
+  #about-me-section {
+    position: relative;
+    height: 600px;
+    width: 800px;
+    box-shadow: none;
+    padding: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+  }
+
+  #h1-about {
+    padding-left: 28%;
+    font-size: 60px;
+  }
+
+  #about-me-p {
+    padding-left: 0%;
+    padding-right: 10%;
+    font-size: 45px;
+  }
+
+  #header-icons {
+    bottom: 0px;
+    top: 800px;
+    font-size: 100px;
+  }
+
+  #background-shape {
+    left: -40%;
+    width: 290%;
+    height: 70%;
+    transform: translateY(-70%) skewY(-0.5rad);
+  }
+
+  main {
+    margin-top: 550px;
+    margin-left: 400px;
+  }
+
+  #projects-section {
+    grid-template-columns: repeat(1, 600px);
+    gap: 100px;
+  }
+
+  .h1-main {
+    margin-left: -150px;
+    margin-bottom: 50px;
+    font-size: 100px;
+    width: 400px;
+  }
+
+  .project {
+    width: 600px;
+    height: 650px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  }
+
+  .screenshot {
+    width: 600px;
+    height: 400px;
+    font-size: 55px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .project-description {
+    font-size: 35px;
+  }
+
+  .main-icons {
+    font-size: 50px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #contact-section {
+    max-width: 700px;
+    width: 600px;
+    transform: translateY(50%);
+    left: 55%;
+  }
+
+  #h1-contact {
+    font-size: 70px;
+    width: 600px;
+  }
+
+  #phone,
+  #email,
+  .footer-text {
+    font-size: 35px;
+  }
+
+  #footer-icons {
+    display: flex;
+    font-size: 70px;
+    gap: 30px;
+  }
+
+  #footer-img-section {
+    position: relative;
+    width: 900px;
+    height: 1200px;
+    margin-left: -3%;
+    margin-top: 150%;
+    margin-bottom: 5%;
+    overflow: hidden;
+  }
+
+  #footer-img-section img {
+    left: -45%;
+    bottom: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #footer-img {
+    position: relative;
+    max-width: 800px;
+    left: 100%;
+    transform: translate(60%, 40%);
+  }
+
+  #footer-background {
+    margin-top: 300%;
+    width: 290%;
+    height: 150%;
+  }
+}
